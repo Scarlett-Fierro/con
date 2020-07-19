@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+    <center>
+        <h1>Proyecto en Django Levantado</h1>
+        <img src="https://pa1.narvii.com/6238/c8977f5933f6c9e422b7cdeb9f71b6eef441f708_hq.gif" alt="" width="300px" height="auto">
+    </center>
+    
+      <h1>LISTA DE LOS MAS BACANES</h1>
+
+      <h2>Bacanes</h2>
+
+      <table>
+        <tr>
+            <th>Rut</th>
+            <th>Persona</th>
+        </tr>
+        {% for p in personas %}
+            <tr>
+                <td>{{ p.1 }} </td>
+                <td>{{ p.2 }} </td>
+            </tr>
+        {% endfor %}
+
+
+        }
+      </table>
+
+      
+
+
+      
+
+    
+</body>
+</html>
